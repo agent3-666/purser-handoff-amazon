@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#183e36" />
+    <title>Agent3 Purser Handoff | Pick up where you left off</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" type="module"></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/" aria-label="Agent3 home"
+        ><span class="brand-icon">a3</span
+        ><span>Agent3<span class="product">PURSER HANDOFF</span></span></a
+      ><span class="simulation"
+        >Alexa+ experience simulation · local, no model key</span
+      ><span id="connection" class="connection">Connecting</span>
+    </header>
+    <main>
+      <section class="intro">
+        <div>
+          <span class="eyebrow">FOR COMMUNITY ORGANIZERS</span>
+          <h1>A pause shouldn't<br />mean starting over.</h1>
+          <p>
+            Turn workshop notes into a volunteer briefing.<br />Come back on
+            another assistant. Keep the work, not the mistakes.
+          </p>
+        </div>
+        <aside class="scenario">
+          <span class="eyebrow">TODAY'S TASK</span>
+          <h2>Saturday Repair Workshop</h2>
+          <p>
+            One briefing. Three source documents.<br />Correct entrance, timings
+            and assignments.
+          </p>
+          <span class="small"
+            >Synthetic example · nothing is sent or booked</span
+          >
+        </aside>
+      </section>
+      <div id="notice" role="status" aria-live="polite" hidden></div>
+      <section class="workspace">
+        <article class="assistant panel">
+          <div class="panel-heading">
+            <span class="eyebrow">YOUR ASSISTANT</span
+            ><span id="task-status" class="pill">Ready when you are</span>
+          </div>
+          <h2 id="assistant-title">
+            “Prepare a briefing for<br />our volunteers.”
+          </h2>
+          <p id="assistant-copy" class="muted">
+            I'll check the programme, venue instructions and assignments, then
+            ask you to review the finished briefing.
+          </p>
+          <div id="progress" class="checks"></div>
+          <div id="resume-note" class="resume-note" hidden></div>
+          <div class="actions" id="actions">
+            <button id="start" class="primary">
+              Prepare volunteer briefing <span>↗</span>
+            </button>
+          </div>
+          <div id="handoff" class="handoff" hidden>
+            <div class="device-row">
+              <span id="runner-label">No assistant active</span
+              ><button id="takeover" class="link-button">
+                Continue on desktop →
+              </button>
+            </div>
+            <p>
+              Saved checks stay with the task. A new assistant replaces the
+              previous one.
+            </p>
+            <button id="old-attempt" class="subtle" hidden>
+              Safety check: let the old assistant try again
+            </button>
+          </div>
+          <details class="history">
+            <summary>
+              What happened <span id="event-count">0 events</span>
+            </summary>
+            <ol id="events"></ol>
+          </details>
+        </article>
+        <article class="brief panel">
+          <div class="panel-heading">
+            <span class="eyebrow">YOUR VOLUNTEER BRIEFING</span
+            ><span id="brief-status" class="pill neutral"
+              >Not prepared yet</span
+            >
+          </div>
+          <div id="brief-empty">
+            <div class="paper-icon">↗</div>
+            <h2>Ready to share,<br />when you're ready.</h2>
+            <p>
+              Every fact links back to its source.<br />You'll confirm the exact
+              version before downloading.
+            </p>
+            <div class="empty-lines"><i></i><i></i><i></i></div>
+          </div>
+          <div id="brief-content" hidden></div>
+          <div id="review" class="review" hidden>
+            <p id="review-copy">
+              Check the entrance, timings and assignments before confirming.
+            </p>
+            <button id="confirm" class="primary">
+              I've reviewed this briefing. Confirm it.</button
+            ><a id="download" class="primary" hidden
+              >Download confirmed briefing ↓</a
+            ><span id="digest" class="small"></span>
+          </div>
+        </article>
+      </section>
+      <section class="sources-section">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">THE SOURCE OF TRUTH</span>
+            <h2>Notes can change. Your briefing should too.</h2>
+          </div>
+          <p>
+            Edit a source below. Only the affected check needs redoing.<br />An
+            old briefing can never be confirmed after a source changes.
+          </p>
+        </div>
+        <div id="sources" class="sources"></div>
+      </section>
+      <footer>
+        <span>Agent3 Purser Handoff · Built for interruptions</span
+        ><span
+          >Deterministic local assistant. No real Alexa integration, payments or
+          messages.</span
+        >
+      </footer>
+    </main>
+  </body>
+</html>

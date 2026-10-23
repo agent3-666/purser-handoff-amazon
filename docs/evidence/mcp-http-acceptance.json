@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-23T13:28:41.543Z",
+  "protocol": "2025-11-25",
+  "officialSdk": "1.32.1",
+  "passed": 10,
+  "checks": [
+    "Real HTTP initialize negotiates MCP 2025-11-25",
+    "Actual UI HTTP create route works and request replay creates no duplicate",
+    "Official SDK Client over Streamable HTTP discovers exactly 7 tools",
+    "Old runner rejected by server even when given latest revision",
+    "Actual source checkpoint reused, no repeated programme check",
+    "MCP workflow creates real cited Markdown; explicit test-owner confirmation unlocks HTTP download",
+    "Source update invalidates completed draft and download; old confirmation replay reports current active state",
+    "Parallel real HTTP takeovers: one winner, one 409",
+    "Missing capability, cross-origin, invalid Host and non-browser pairing are rejected",
+    "SIGKILL then real process restart recovers correct incremental state from disk and reclaims dead writer lock"
+  ]
+}

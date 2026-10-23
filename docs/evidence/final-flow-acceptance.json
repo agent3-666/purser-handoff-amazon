@@ -1,0 +1,17 @@
+{
+  "at": "2026-10-23T13:27:34.371Z",
+  "bytes": 1238,
+  "sha256": "88e3b02ce3e5b8579abff85e193f69ce852478839ea580bed0b31f777af45153",
+  "matchesOwnerReceipt": true,
+  "sourceVersions": {
+    "programme": 1,
+    "venue": 2,
+    "people": 1
+  },
+  "sourceCheckCounts": {
+    "programme": 1,
+    "venue": 2,
+    "people": 1
+  },
+  "blockedOldRunner": true
+}

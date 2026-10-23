@@ -1,0 +1,100 @@
+{
+  "project": "Agent3 Purser Handoff",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 56,
+      "sha256": "a4d73890d9b11c0aa1776682393f8745cc7dd1d8ffc1c261f4d397213269f125"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1076,
+      "sha256": "5db54474c9c2034937630f1714e995080b92f4d3d47ea98ebb4760202f010ba5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 7673,
+      "sha256": "71072e585c1ab0958240c00abe25dd1d4678f14a5b8ee41ff3fe9c3a0e0d7abb"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1144,
+      "sha256": "3464738ee8d6ede67853bc889b573e1f1f19593d8901ced406b9dcd2c1e873b4"
+    },
+    {
+      "path": "docs/FRICTION.md",
+      "bytes": 6962,
+      "sha256": "69f8b7f75238b3471e13ed07d92bddcda7f171078e5a86e1b8f09b8bb91e8a3f"
+    },
+    {
+      "path": "docs/TESTING.md",
+      "bytes": 2365,
+      "sha256": "f6c9a3c3298b8eff10078bde82a3a88806aead3be6ba93b758595f2b579f7942"
+    },
+    {
+      "path": "docs/confirmed-briefing.png",
+      "bytes": 182531,
+      "sha256": "86f431cc2ba913578375907ee2be5b3ed3804e0986818dc138307b58a3151029"
+    },
+    {
+      "path": "docs/evidence/final-flow-acceptance.json",
+      "bytes": 355,
+      "sha256": "292b306c92bbbe29dda8a70b221bee7386ce758047c91dd36eaf8514261f5b68"
+    },
+    {
+      "path": "docs/evidence/mcp-http-acceptance.json",
+      "bytes": 957,
+      "sha256": "786d63d848eb765200ab0f1fe982e93a2a9860e34d0ab329a443f310b2a6cc28"
+    },
+    {
+      "path": "docs/evidence/volunteer-briefing.md",
+      "bytes": 1238,
+      "sha256": "88e3b02ce3e5b8579abff85e193f69ce852478839ea580bed0b31f777af45153"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 45541,
+      "sha256": "147358f3b6effe4c1d03852e4c57dbe67e4df45d8c8b761a122b1de67108eeb9"
+    },
+    {
+      "path": "package.json",
+      "bytes": 677,
+      "sha256": "4df2a7430b2e1ef6bffce5bd07e76f310d01f2a3f04b84bd5ec567cdff7fdb39"
+    },
+    {
+      "path": "scripts/interop.js",
+      "bytes": 8267,
+      "sha256": "06d552bcda95cac9977b48bbd3b0b6e30763a9c3a1097d6e4d005dc3f3d4fa03"
+    },
+    {
+      "path": "src/server.js",
+      "bytes": 7849,
+      "sha256": "c1f843628fd9868bb16cb4fcc811b7b14ce324000ba530ce0e67eab1409bfa71"
+    },
+    {
+      "path": "src/store.js",
+      "bytes": 16166,
+      "sha256": "386f17d1e596638521054a768adbe7434db919e3c80068d8d153aeceefe42b11"
+    },
+    {
+      "path": "tests/store.test.js",
+      "bytes": 9041,
+      "sha256": "638a2906f1f62509bad8e2d7d2980222d1a7e200f12bb5f566aa68828f57ee6c"
+    },
+    {
+      "path": "web/app.js",
+      "bytes": 14565,
+      "sha256": "3e6a7c76e6d98be1edd33f0f7c87c41c809c31f4ccb45e9c668f35339bf7190a"
+    },
+    {
+      "path": "web/index.html",
+      "bytes": 5237,
+      "sha256": "81769ed9ea80f36bf8b5db8491630adecd21fd33b454ef92853b4c86a70f1736"
+    },
+    {
+      "path": "web/style.css",
+      "bytes": 9486,
+      "sha256": "8369879c7dbb6f9c0df6763463c17c0312a121eb2d97014926ab4441dc5b0eae"
+    }
+  ]
+}

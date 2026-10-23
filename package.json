@@ -1,0 +1,24 @@
+{
+  "name": "agent3-purser-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Resume a community workshop briefing safely after interruption. Local Alexa+ simulation and real MCP server.",
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/*.test.js",
+    "test:interop": "node scripts/interop.js",
+    "check": "node --check src/store.js && node --check src/server.js && node --check web/app.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.1",
+    "express": "5.1.0",
+    "zod": "4.1.12"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}
